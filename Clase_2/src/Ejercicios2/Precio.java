@@ -11,11 +11,11 @@ package Ejercicios2;
  * @author Gerson
  */
 public class Precio {
-    private double euros;
-    public double obtener (){
-        return euros;
+    private double euros; // declaracion de variable privada
+    public double obtener (){ //metodo obrener
+        return euros; //retorna el valor de la variable
     }
-    public void agregar (double x){
-        euros = x;
+    public void agregar (double x){// metodo agregar donde recibe un double
+        euros = x; //los datos se van agregando en la variable euros
     }
 }

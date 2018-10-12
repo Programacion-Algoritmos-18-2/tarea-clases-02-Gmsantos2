@@ -9,18 +9,18 @@ package Ejercicios3;
  *
  * @author Gerson
  */
-public class Precio {
-    private double euros;
-    public double obtener (){
-        return euros;
+public class Precio { 
+    private double euros;//declaración de variable privada
+    public double obtener (){ // metodo obtener
+        return euros;// retona la variabe euros
     }
-    public void agregar (double x){
-        euros = x;
+    public void agregar (double x){ // metodo agregar que recibe decimal
+        euros = x; //se agrega en la variable privada
     }
-    public Precio(){
-        agregar(30.2);
+    public Precio(){ // constructor precio 
+        agregar(30.2); //mandamos un valor a agregar
     }
-    public Precio(double y ){
-        agregar(y);
+    public Precio(double y ){ //contstructor que recibe un valor double
+        agregar(y); // mandamos al metodo agregar el valor de y 
     }
 }
