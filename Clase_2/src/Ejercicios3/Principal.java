@@ -14,11 +14,10 @@ import java.util.Scanner;
  */
 public class Principal {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        Precio p;
-        p = new Precio(255);
+        Precio p;// se llama a la clase precio 
+        p = new Precio(255);// inicializacion de variable conla clase precio con un valor de 225
         
-        System.out.println(p.obtener());
+        System.out.println(p.obtener());// presentar el metodo obtener de la clase precio
         
     }
     

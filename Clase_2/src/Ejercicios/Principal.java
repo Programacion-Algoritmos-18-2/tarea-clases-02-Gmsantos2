@@ -1,7 +1,5 @@
 package Ejercicios;
 
-import java.util.Scanner;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -14,11 +12,10 @@ import java.util.Scanner;
  */
 public class Principal {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        Precio p;
-        p = new Precio();
-        p.euros = 10.1;
-        System.out.println(p.euros);
+        Precio p; //se llama a  la clase Precio
+        p = new Precio(); //variable inicializada con la clase
+        p.euros = 10.1; //asignacion de valor
+        System.out.println(p.euros); // presentacion de la variable con el metodo p
         
     }
     

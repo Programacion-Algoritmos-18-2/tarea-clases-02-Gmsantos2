@@ -1,6 +1,5 @@
 package Ejercicios2;
 
-import java.util.Scanner;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -14,8 +13,7 @@ import java.util.Scanner;
  */
 public class Principal {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        Precio p;
+        Precio p; //
         p = new Precio();
         p.agregar(20.0);
         System.out.println(p.obtener());

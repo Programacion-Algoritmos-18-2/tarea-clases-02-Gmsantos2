@@ -10,11 +10,12 @@ package Ejercicios;
  * @author Gerson
  */
 public class Precio {
-    double euros;
-    public double obtener (){
-        return 0;
+    double euros; //variable publica
+    public double obtener (){ //metodo obtener
+        return 0; // devuelve un valor de 0 
     }
-    public void agregar (double x){
+    public void agregar (double x){ // método agregar donde recibe un parámetro double
+        
         
     }
 }
