@@ -1,4 +1,4 @@
-package Ejercicios;
+package Ejercicios3;
 
 import java.util.Scanner;
 
@@ -16,9 +16,9 @@ public class Principal {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         Precio p;
-        p = new Precio();
-        p.euros = 10.1;
-        System.out.println(p.euros);
+        p = new Precio(255);
+        
+        System.out.println(p.obtener());
         
     }
     

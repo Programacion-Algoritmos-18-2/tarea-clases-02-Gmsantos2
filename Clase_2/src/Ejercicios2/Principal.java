@@ -1,4 +1,4 @@
-package Ejercicios;
+package Ejercicios2;
 
 import java.util.Scanner;
 
@@ -17,8 +17,8 @@ public class Principal {
         Scanner entrada = new Scanner(System.in);
         Precio p;
         p = new Precio();
-        p.euros = 10.1;
-        System.out.println(p.euros);
+        p.agregar(20.0);
+        System.out.println(p.obtener());
         
     }
     
